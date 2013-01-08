@@ -1,4 +1,5 @@
 === Slim version of Jetpack by WordPress.com ===
+
 Contributors: automattic, apeatling, beaulebens, hugobaeta, Joen, mdawaffe, andy, designsimply, hew, westi, eoigal, tmoorewp, matt, pento, cfinke, daniloercoli, chellycat, gibrown, jblz, jshreve, barry, alternatekev, azaozz, ethitter, johnjamesjacoby, lancewillett, martinremy, nickmomrik, stephdau, yoavf, matveb
 Tags: views, tweets, twitter, widget, gravatar, hovercards, profile, equations, latex, math, maths, youtube, shortcode, archives, audio, blip, bliptv, dailymotion, digg, flickr, googlevideo, google, googlemaps, kyte, kytetv, livevideo, redlasso, rockyou, rss, scribd, slide, slideshare, soundcloud, vimeo, shortlinks, wp.me, mosaic, gallery, slideshow
 Requires at least: 3.3
@@ -8,6 +9,7 @@ Stable tag: 2.1
 Supercharge your WordPress site with powerful features even you're not WordPress.com users :)
 I don't have a wordpress plugin publisher account yet so this plugin will be located here temporarily.
 I believe the functions I touched won't cause security issues, but use at your own risk!
+
 == Description ==
 
 [Jetpack](http://jetpack.me/) is an awesome plugin bundle provided by the Automattic but it requires WordPress.com account
@@ -68,28 +70,8 @@ If you don't like certain modules, just delete them :-)
 If you need a new module from Jetpack future releases, copy the files into Slim Jetpack and try.
 It should work without problem :)
 
-= How do I embed media? =
-
-Use [shortcodes](http://support.wordpress.com/shortcodes/) to embed your media.  Currently, Jetpack provides the following shortcodes.
-
-* [[archives]](http://support.wordpress.com/archives-shortcode/)
-* [[audio]](http://support.wordpress.com/audio/)
-* [[blip.tv]](http://support.wordpress.com/videos/bliptv/)
-* [[dailymotion]](http://support.wordpress.com/videos/dailymotion/)
-* [[digg]](http://support.wordpress.com/digg/)
-* [[flickr]](http://support.wordpress.com/videos/flickr-video/)
-* [[googlemaps]](http://en.support.wordpress.com/google-maps/)
-* [[googlevideo]](http://support.wordpress.com/videos/google-video/)
-* [[polldaddy]](http://support.polldaddy.com/wordpress-shortcodes/)
-* [[scribd]](http://support.wordpress.com/scribd/)
-* [[slideshare]](http://support.wordpress.com/slideshows/slideshare/)
-* [[soundcloud]](http://support.wordpress.com/audio/soundcloud-audio-player/)
-* [[videopress]](http://support.wordpress.com/videopress/)
-* [[vimeo]](http://support.wordpress.com/videos/vimeo/)
-* [[youtube]](http://support.wordpress.com/videos/youtube/)
-
-
 == Weight-loss Diary ==
+
 = 2.1.1 =
 * Removed and mocked the api authentication codes
 * Removed the admin marketing banners
@@ -97,7 +79,7 @@ Use [shortcodes](http://support.wordpress.com/shortcodes/) to embed your media. 
 * Changed the Jetpack admin menu into Settings -> Slim Jetpack submenu
 * Changed the default status of modules to be 'inactive'
 
-== Changelog ==
+== Original Jetpack Changelog ==
 
 = 2.1.1 =
 * Bug Fix: Fix for an error appearing for blogs updating from Jetpack 1.9.2 or earlier to 2.1.
