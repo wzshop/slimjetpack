@@ -1725,7 +1725,7 @@ p {
 
 		case 'module_activated' :
 			if ( $module = Jetpack::get_module( Jetpack::state( 'module' ) ) ) {
-				$this->message = sprintf( __( '<strong>%s Activated!</strong> You can deactivate at any time by clicking Learn More and then Deactivate on the module card.', 'jetpack' ), $module['name'] );
+				$this->message = sprintf( __( '<strong>%s Activated!</strong> You can deactivate at any time by clicking "Learn More" to show the "Deactivate" button.', 'jetpack' ), $module['name'] );
 				$this->stat( 'module-activated', Jetpack::state( 'module' ) );
 			}
 			break;
@@ -4106,6 +4106,5 @@ register_activation_hook( __FILE__, array( 'Jetpack', 'plugin_activation' ) );
 register_deactivation_hook( __FILE__, array( 'Jetpack', 'plugin_deactivation' ) );
 
 add_action( 'init', array( 'Jetpack', 'init' ) );
-//Skip the activation of all modules to let users activate them one by one.
-//add_action( 'plugins_loaded', array( 'Jetpack', 'load_modules' ), 100 );
+add_action( 'plugins_loaded', array( 'Jetpack', 'load_modules' ), 100 );
 add_filter( 'jetpack_static_url', array( 'Jetpack', 'staticize_subdomain' ) );

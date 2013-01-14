@@ -118,7 +118,6 @@ jetpack = {
 	},
 
 	insert_learn_more: function( card, callback ) {
-	    return;  // Disbale the spam box
 		var perRow = parseInt( jetpack.container.width() / 242, 10 ),
 		    cardPosition = 0,
 		    cardRow = 0,
