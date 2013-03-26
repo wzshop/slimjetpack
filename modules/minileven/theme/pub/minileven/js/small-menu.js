@@ -10,7 +10,7 @@ jQuery( document ).ready( function( $ ) {
 		$subsidiary.find( '#access h3' ).removeClass( 'assistive-text' ).addClass( 'menu-label' );
 		$subsidiary.find( '#access .menu-handle' ).addClass( 'menu-toggle' );
 
-		$( '.menu-toggle' ).click( function() {
+		$( '.menu-toggle' ).unbind( 'click' ).click( function() {
 			$subsidiary.find( '.menu' ).toggle();
 			$( this ).toggleClass( 'toggled-on' );
 		} );
